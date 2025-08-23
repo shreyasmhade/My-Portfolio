@@ -1,13 +1,9 @@
 import './App.css';
-// import LoginForm from './components/LoginForm';
-// import FormValidation from './components/FormValidation';
-// import Counter from './components/Counter';
-import FetchData from './components/FetchData'
 
 function App() {
   return (
     <div>
-      <FetchData />
+      <h1>Portfolio Website</h1>
     </div>
   );
 }
