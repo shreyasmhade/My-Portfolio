@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+/* Counter App
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+.counter-box{
+    background-color: orangered;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30vh;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+button{
+    padding: 10px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: skyblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Controlled and Uncontrolled Form */
+/* form{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+input{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 70%;
+}  */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Basic Form Validation */
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.validation-form {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 450px;
+  transition: transform 0.3s ease;
+}
+
+.validation-form:hover {
+  transform: translateY(-5px);
+}
+
+.validation-form h2 {
+  text-align: center;
+  margin-bottom: 1.8rem;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.validation-form label {
+  display: block;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.validation-form label > span {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #444;
+  font-size: 1rem;
+}
+
+.validation-form input {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  border: 2px solid #e1e1e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.validation-form input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+.validation-form button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to right, #667eea, #764ba2);
   color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.validation-form button:hover {
+  background: linear-gradient(to right, #5a6fd8, #6a4190);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.validation-form button:active {
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  .validation-form {
+    padding: 1.8rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .validation-form h2 {
+    font-size: 1.5rem;
   }
+  
+  .validation-form input {
+    padding: 0.8rem;
+  }
+  
+  .validation-form button {
+    padding: 0.9rem;
+  }
+}
+
+.alert-msg{
+    font-size: 10px;
+    color: rgba(255, 19, 35, 0.964);
 }
