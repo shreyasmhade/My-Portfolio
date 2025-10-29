@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import {  } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Project({ project, index }) {
   const Icon = project.icon;
