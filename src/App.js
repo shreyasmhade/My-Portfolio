@@ -1,11 +1,17 @@
-import './App.css';
-import Header from './components/Header';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './components/LandingPage';
+
 function App() {
   return (
-    <div>
-      <h1>Portfolio Website</h1>
-    </div>
+    <Router>
+      <Routes>
+        {/* Portfolio Route */}
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
