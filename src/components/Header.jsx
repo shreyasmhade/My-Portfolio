@@ -68,7 +68,7 @@ export default function Header({ darkMode, setDarkMode }) {
             whileTap={{ scale: 0.95 }}
             onClick={() => scrollToSection("hero")}
           >
-            Shreyas
+            SM
           </motion.h1>
 
           {/* Desktop Navigation */}
