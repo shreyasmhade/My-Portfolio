@@ -2,7 +2,7 @@ import React from "react";
 import { FaDownload, FaArrowRight, FaGithub, FaJira } from "react-icons/fa";
 import { motion } from "framer-motion";
 import myImage from "../assets/Shreyas.jpg";
-
+import Resume from "../assets/Shreyas Mhade Resume.pdf"
 export default function Hero() {
   const scrollToProjects = () => {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
@@ -63,7 +63,7 @@ export default function Hero() {
               </motion.button>
 
               <motion.a
-                href="/Shreyas_Mhade_Resume.pdf"
+                href={Resume}
                 download
                 className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl font-semibold text-lg hover:border-emerald-500 hover:text-emerald-600 transition-all flex items-center justify-center gap-3"
                 whileHover={{ scale: 1.05 }}
