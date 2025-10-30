@@ -6,19 +6,19 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: FaGithub,
-      href: "#",
+      href: "https://github.com/shreyasmhade",
       label: "GitHub",
       color: "hover:text-gray-400"
     },
     {
       icon: FaLinkedin,
-      href: "#",
+      href: "https://www.linkedin.com/in/shreyas-mhade/",
       label: "LinkedIn",
       color: "hover:text-blue-400"
     },
     {
       icon: FaEnvelope,
-      href: "#",
+      href: "mhadeshreyas911@gmail.com",
       label: "Email",
       color: "hover:text-red-400"
     }

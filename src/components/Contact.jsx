@@ -25,13 +25,13 @@ export default function Contact() {
   const contactInfo = [
     {
       icon: Mail,
-      text: "shreyas@example.com",
-      href: "mailto:shreyas@example.com"
+      text: "mhadeshreyas911@gmail.com",
+      href: "mailto:mhadeshreyas911@gmail.com"
     },
     {
       icon: Phone,
-      text: "+91 98765 43210",
-      href: "tel:+919876543210"
+      text: "+91 9307340292",
+      href: "tel:+919307340292"
     },
     {
       icon: MapPin,

@@ -79,7 +79,7 @@ export default function Project({ project, index }) {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <FaExternalLinkAlt className="group-hover:scale-110 transition-transform" />
+            <FaExternalLinkAlt className="group-hover:scale-110 transition-transform disabled" />
             Live Demo
           </motion.a>
           <motion.a 
